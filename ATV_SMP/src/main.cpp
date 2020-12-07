@@ -6,9 +6,6 @@ int i = 0;           //contador de tempo para botao apertado
 float intense = 1.0; // intensidade da luz
 
 void ChangeState(char val);
-void InState();
-void Changetick();
-void Count();
 
 int main()
 {
