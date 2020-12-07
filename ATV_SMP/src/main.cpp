@@ -1,7 +1,7 @@
 #include "mbed.h"
 
 PwmOut light = {(p5)}; //LED ports definition// p5 - Orange
-Serial se;
+Serial se(USBTX,USBRX);
 int i = 0;           //contador de tempo para botao apertado
 float intense = 1.0; // intensidade da luz
 
